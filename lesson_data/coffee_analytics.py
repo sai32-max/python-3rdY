@@ -49,7 +49,7 @@ from mysql.connector import connect
 
 import os
 DB_USER=os.getenv("DB_USER","postgres")#postgres#root
-DB_PASSWORD:str=os.getenv("DB_PASSWORD","your_sjbd_password")
+DB_PASSWORD:str=os.getenv("DB_PASSWORD","pubg4life")
 DB_NAME:str=os.getenv("DB_NAME","db_bank")
 DB_PORT:str=os.getenv("DB_PORT","5432") #5432 for postgradSQL 3306 for mysql
 
